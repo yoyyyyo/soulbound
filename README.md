@@ -7,7 +7,7 @@ pragma solidity >=0.8.0;
 
 // SPDX-License-Identifier: CC0-1.0
 
-import "./Soulbound721.sol";
+import "@yoyyyyo/soulbound/SoulboundERC721.sol";
 
 contract S721 is SoulboundERC721 {
     constructor() SoulboundERC721("Soul721", "S") {}
@@ -21,7 +21,7 @@ contract S721 is SoulboundERC721 {
     }
 }
 
-import "./Soulbound1155.sol";
+import "@yoyyyyo/soulbound/SoulboundERC1155.sol";
 
 contract S1155 is SoulboundERC1155 {
     constructor() SoulboundERC1155() {}
