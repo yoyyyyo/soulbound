@@ -1,0 +1,13 @@
+{
+  "name": "@yoyyyyo/soulbound",
+  "license": "AGPL-3.0-only",
+  "version": "1.0.0",
+  "description": "a simpler, \"soulbound\" version of ERC721/ERC1155 token implementations",
+  "files": [
+    "*.sol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyyyyo/soulbound.git"
+  }
+}
